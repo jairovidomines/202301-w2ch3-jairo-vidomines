@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+table {
+    background-color: black;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    border-radius: 10px;
+    padding: 2px;
+    padding-top: 15px;
+}
+
+.panel {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 55px;
+    margin: 0;
+}
+
+.btn {
+    color: white;
+    border-radius: 50%;
+    border-style: none;
+    font-size: 18px;
+    width: 55px;
+    height: 55px;
+    margin: 2px;
+}
+
+.btn.special {
+    color: black;
+    background-color: rgb(140, 140, 140);
+}
+
+.btn.special:hover {
+    background-color: rgb(170, 170, 170);
+}
+
+.btn.operator {
+    background-color: rgb(252, 141, 12);
+}
+
+.btn.operator:hover {
+    background-color: rgb(255, 191, 61);
+}
+
+.btn.number, .btn.decimal {
+    background-color: rgb(38, 38, 38);
+}
+
+.btn.number:hover, .btn.decimal:hover {
+    background-color: rgb(88, 88, 88);
+}
+
+#cero {
+    border-radius: 50px;
+    width: 118px;
+}
+
+#cero p {
+    padding-left: 18px;
+    text-align: left;
+}
