@@ -1,7 +1,7 @@
 const num1 = Number(prompt("Introduce un número"));
 const num2 = Number(prompt("Introduce otro número"));
 
-function suma() {
+export function suma() {
   return "Suma: " + num1 + " + " + num2 + " = " + (num1 + num2);
 }
 
