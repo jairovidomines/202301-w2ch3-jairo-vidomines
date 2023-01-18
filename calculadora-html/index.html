@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Calculadora</title>
+</head>
+
+<body onload="init();">
+  <section>
+    <div>
+      <table class="table">
+        <tr>
+          <td colspan="4">
+            <p id="resultado" class="panel"></p>
+          </td>
+        </tr>
+        <tr>
+          <td><button id="reset" class="btn special">AC</button></td>
+          <td><button id="masmenos" class="btn special">+/-</button></td>
+          <td><button id="porcentaje" class="btn special">%</button></td>
+          <td><button id="division" class="btn operator">÷</button></td>
+        </tr>
+        <tr>
+          <td><button id="siete" class="btn number">7</button></td>
+          <td><button id="ocho" class="btn number">8</button></td>
+          <td><button id="nueve" class="btn number">9</button></td>
+          <td><button id="multiplicacion" class="btn operator">x</button></td>
+        </tr>
+        <tr>
+          <td><button id="cuatro" class="btn number">4</button></td>
+          <td><button id="cinco" class="btn number">5</button></td>
+          <td><button id="seis" class="btn number">6</button></td>
+          <td><button id="resta" class="btn operator">-</button></td>
+        </tr>
+        <tr>
+          <td><button id="uno" class="btn number">1</button></td>
+          <td><button id="dos" class="btn number">2</button></td>
+          <td><button id="tres" class="btn number">3</button></td>
+          <td><button id="suma" class="btn operator">+</button></td>
+        </tr>
+        <tr>
+          <td colspan="2"><button id="cero" class="btn number">
+              <p id="zero">0</p>
+            </button></td>
+          <td><button id="punto" class="btn decimal">.</button></td>
+          <td><button id="igual" class="btn operator">=</button></td>
+        </tr>
+      </table>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
